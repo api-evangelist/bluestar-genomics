@@ -42,5 +42,11 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ClearNote Health is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/bluestar-genomics_stock/
+ClearNote Health (formerly Bluestar Genomics) is a US cancer detection company with offices in San Diego and San Mateo, California. Its proprietary 5hmC epigenomic platform combines cell-free DNA sequencing from a standard blood draw with machine learning to identify DNA-based alterations as cancer develops. The company commercializes Avantect, a suite of early-detection liquid biopsy tests for pancreatic and ovarian cancer that clinicians order through its laboratory, and Virtuoso, a research-use-only epigenomics platform sold to biopharma.
+
+**No public API surface.** As of 2026-08-08 ClearNote Health publishes no developer program, API, SDK, or machine-readable specification. The clinician ordering path is a hosted intake form; `developer.`, `docs.`, and `api.clearnotehealth.com` do not resolve; and both first-party GitHub organizations contain only forks of open-source bioinformatics tooling. See `x-coverage` in `apis.yml` for the probed evidence.
+
+- https://www.clearnotehealth.com/
+- https://www.avantect.com/
+- https://www.virtuosoepigenomics.com/
+- https://github.com/ClearNote-Health
