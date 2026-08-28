@@ -11,6 +11,17 @@ description: 'ClearNote Health (formerly Bluestar Genomics) is a US cancer detec
   no public developer program, API, SDK, or machine-readable specification: the
   clinician ordering path is a hosted intake form, and its public GitHub organization
   contains only forks of open-source bioinformatics tooling.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.clearnotehealth.com/wp-content/uploads/2025/10/ClearNote%C2%AEHealthLogo_rgb.png
 url: https://raw.githubusercontent.com/api-evangelist/bluestar-genomics/refs/heads/main/apis.yml
 x-type: company
